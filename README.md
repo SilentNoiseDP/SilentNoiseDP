@@ -17,7 +17,9 @@ Run "ReadFoursquare.exe" and "ReadUSCensus.exe" and place the results in "data/F
 
 **(2) Get numerical bounds in shuffle protocols**
 
-Place [ml-shuffling-amplification](https://github.com/apple/ml-shuffling-amplification) in "python/", run "NumericalBound.py", and place "numerical-bound_n359094_d10-8.csv" and "numerical-bound_n2458285_d10-8" in "data/Foursquare_TIST15_MH/" and "data/USCensus1990/", respectively.
+Download the code in [ml-shuffling-amplification](https://github.com/apple/ml-shuffling-amplification) and place it in "python/". 
+
+Run "NumericalBound.py" and place "numerical-bound_n359094_d10-8.csv" and "numerical-bound_n2458285_d10-8" in "data/Foursquare_TIST15_MH/" and "data/USCensus1990/", respectively.
 
 **(4) Run protocols**
 
